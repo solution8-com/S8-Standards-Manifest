@@ -6,8 +6,9 @@ Python is used for backend services, data processing, and automation at Solution
 
 ## Python Version
 
-- Use **Python 3.10+** for all new projects
-- Maintain compatibility with the latest stable Python version
+- Use **Python 3.11+** for all new projects (Python 3.12+ recommended)
+- Stay updated with the latest stable Python version
+- Leverage modern Python features and performance improvements
 
 ## Code Style
 

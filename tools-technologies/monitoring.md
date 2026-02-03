@@ -467,11 +467,11 @@ Sentry.setContext("character", {
 - **Largest Contentful Paint (LCP)**: Main content loaded
 - **Time to Interactive (TTI)**: Page becomes interactive
 - **Cumulative Layout Shift (CLS)**: Visual stability
-- **First Input Delay (FID)**: Interactivity responsiveness
+- **Interaction to Next Paint (INP)**: Interactivity responsiveness (replaced FID in 2024)
 
 **Web Vitals Implementation:**
 ```javascript
-import {getCLS, getFID, getFCP, getLCP, getTTFB} from 'web-vitals';
+import {getCLS, getINP, getFCP, getLCP, getTTFB} from 'web-vitals';
 
 function sendToAnalytics(metric) {
   const body = JSON.stringify({
@@ -491,7 +491,7 @@ function sendToAnalytics(metric) {
 }
 
 getCLS(sendToAnalytics);
-getFID(sendToAnalytics);
+getINP(sendToAnalytics);
 getFCP(sendToAnalytics);
 getLCP(sendToAnalytics);
 getTTFB(sendToAnalytics);

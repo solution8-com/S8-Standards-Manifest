@@ -230,7 +230,7 @@ function calculateTotal(items: CartItem[], taxRate: number): number {
 ## Tools & Configuration
 
 ### Required Tools
-- TypeScript 5.0+
+- TypeScript (latest stable version, 5.0+ minimum)
 - ESLint with TypeScript support
 - Prettier for code formatting
 - Jest for testing
