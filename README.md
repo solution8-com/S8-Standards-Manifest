@@ -51,7 +51,7 @@ Use single-purpose functions to improve both readability and maintainability:
 # Clear and focused
 def calculate_area(length, width):
     return length * width
-` `` 
+```
 
 ### Follow the DRY (Don't Repeat Yourself) Principle
 
