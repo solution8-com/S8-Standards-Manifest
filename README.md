@@ -77,11 +77,11 @@ Testing is not just about finding bugs — it is about building confidence in yo
 
 ### Regular Code Reviews
 
-Peer reviews are invaluable for maintaining high standards. They allow developers to catch errors, suggest optimisations, and ensure adherence to coding guidelines. Beyond improving the code, reviews also promote shared knowledge and learning among team members. When done consistently, they become a cornerstone of collaborative development.
+Peer reviews are invaluable for maintaining high standards. In the age of AI, this practice moves to the background. Beyond improving the code, reviews promote shared knowledge and learning among team members. When done consistently, they become a cornerstone of collaborative development. We use AI to enhance and accelerate this instead of replacing it. 
 
 ### Prioritise Security
 
-Security is integral to writing reliable software. Validating user inputs, sanitising data, and staying up to date with dependency patches help prevent vulnerabilities. Secure coding practices ensure that your software is not only functional but also trustworthy.
+Security is integral to writing reliable software. Validating user inputs, sanitising data, and staying up to date with dependency patches help prevent vulnerabilities. Secure coding practices ensure that your software is not only functional but also trustworthy. 
 
 ### Version Control as a Core Practice
 
@@ -98,9 +98,9 @@ Continuous Integration and Continuous Deployment (CI/CD) bring order and precisi
 | Practice | Detail |
 | :-- | :-- |
 | **Consistent Naming Conventions** | Use meaningful and consistent names for variables, functions, classes, and other entities. |
-| **Code Formatting** | Follow consistent code formatting rules to enhance readability. |
-| **Code Reviews** | Conduct regular code reviews to ensure adherence to standards and to share knowledge among team members. |
-| **External Documentation** | Maintain up-to-date documentation, including design documents, user manuals, and API references (e.g. Swagger, Postman). |
+| **Code Formatting** | Follow consistent code formatting rules to enhance readability. AI coding agents effectively embody this and hardly ever require manual correction. |
+| **Code Reviews** | In 2026, strict branch discipline and agentic code reviews are expected to ensure the software we deploy is safe and does not contain bugs that are security and stability-related. |
+| **External Documentation** | The best way to document is to use Devin DeepWiki. |
 | **README Files** | Provide README files in repositories to guide developers on setup, usage, and contribution guidelines. |
 | **Automated Testing** | Provide unit tests, end-to-end tests, smoke tests, and integration tests as well as continuous integration practices. |
 | **Code Refactoring** | Regularly refactor code to improve its structure, readability, and maintainability without changing its external behaviour. |
