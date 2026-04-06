@@ -134,7 +134,7 @@ While we value consistency, we recognize that different projects have different 
 
 ### Approved Technology Radar
 
-We maintain a technology radar categorizing tools as:
+We maintain a [technology radar categorizing tools as](https://github.com/solution8-com/S8-radar-cli):
 
 - **Adopt**: Proven technologies recommended for production use
 - **Trial**: Worth pursuing in projects that can handle risk
